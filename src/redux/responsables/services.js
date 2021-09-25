@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const URL_BASE = 'http://20.80.227.120/api/Responsables';
+const URL_BASE = 'https://cors-anywhere.herokuapp.com/http://20.80.227.120/api/Responsables';
 
 export const getResponsables = () => axios.get(URL_BASE);
 export const updateResponsableReq = (infoNewResponsable) => axios.put(URL_BASE, infoNewResponsable);
